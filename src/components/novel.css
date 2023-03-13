@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+#landing {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5ddc770e2184d87df0ed427c/1576719290357-RNTUJK6YQ3TFV2W2L53V/photo-1507842217343-583bb7270b66.jpeg?format=1500w') !important;
+    /* background-size: cover; */
+    height: auto;
+}
+
+#head {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-weight: normal;
+    padding-top: unset;
+    text-align: left;
+    color: #0d7f01;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#navvv{
+font-size: 16px;
+font-weight: 700;
+border-radius: 12px;
+padding: 5px 15px;
+transition: 0.3s;
+background-color: #f9a504;
+}
+#diver {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 294px;
+}
+#diverr {
+    height: 50px;
+    position: relative;
+    width: 103vw;
+}
+
+.figureWEB {
+    width:80%;
+    /* margin-left:19%; */
+    display : flex;
+    gap : 25px;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+}
+
+.imagees {
+    border: 3px solid #f9a504;
+    width: 20vw;
+    height: 35vw;
+    
+}
+
+#navBarContainer {
+    background-image: url(https://img.freepik.com/premium-vector/black-horizontal-abstract-wide-banner-with-green-light-line_156943-519.jpg?w=1380);
+}
+
+#imgNav {
+    margin-left: 3px;
+    width: 3vw;
+    height: 3vw;
+}
+
+#logout {
+    color: aliceblue !important;
+    font-size: 18px;
+    position: relative;
+    margin-right: 20px;
+}
+
+#add {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 5px 15px;
+    transition: 0.3s;
+    background-color: #f9a504;
+}
+
+#add:hover {
+    color: aliceblue !important;
+    background-color: #13b301;
+    color: #13b301;
+    scale: 1.1;
+}
+
+#navvv:hover{
+    color: aliceblue !important;
+    background-color: #13b301;
+    color: #13b301;
+    scale: 1.1;
+
+}
+#search::placeholder {
+    font-size: 18px;
+}
+
+.bookImages{
+    width: 18vw;;
+    border: 5px;
+    border-radius: 15px;
+    height: 60%;
+}
+
+.AuthorName{
+ font-size: 18px;
+ font-weight: 700;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 18vw;
+  padding: 10px 13px;
+  direction : 'ltr';
+  margin-bottom: 5px;
+}
+.descriptionSt{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 18vw;
+    padding: 10px 13px;
+    direction : 'ltr'
+}

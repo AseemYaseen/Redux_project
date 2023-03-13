@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+#diver {
+    height: 50px;
+    margin-right: 38.5vw;
+    /* margin-right: auto; */
+    position: relative;
+    width: 350px;
+}
+
+#formm {
+    margin-top: 10vw;
+    height: 52vh;
+}
+
+#formm input::placeholder {
+    color: aliceblue;
+    text-align: center;
+}
+
+#imgAdd {
+    width: 5vw;
+    height: 5vw;
+    margin-left: 32vw;
+}
+#addNovelDB {
+    position: absolute;
+    margin-left: 27vw;
+    padding: 10px 30px;
+    border-radius: 12px;
+    bottom: 3.1vw;
+    font-size: 21px;
+    border: none;
+    transition: 0.2s;
+}
+
+#addNovelDB:hover{
+    background-color: blanchedalmond;
+    scale: 1.1
+}
+
+#imgLabel {
+    position: absolute;
+    display: inline-block;
+    font-family: "Penumbra", helvetica, arial;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-weight: normal;
+    padding-top: unset;
+    text-align: left;
+    color: #040404;
+    /* margin-left: 37vw; */
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 15px;
+    bottom: 2.5vw;
+    transition: 0.2s;
+}
+
+#imgLabel:hover{
+background-color: blanchedalmond;
+scale: 1.1;
+
+}
+
+#formm input {
+    font-family: 'Dancing Script', cursive;
+    /* margin-left : 32vw; */
+    width: 35vw;
+    height: 3vw;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 25px;
+
+     background-image: url('https://wallpaperset.com/w/full/4/5/7/512917.jpg');
+}
