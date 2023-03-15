@@ -55,9 +55,6 @@ function AddBook() {
   return (
       <>
         <Navbar id="navBarContainer">
-        <Container>
-            <Navbar.Brand href="#home"><form><input type="text" placeholder="Search ..."/> <br/><button id="add" >Search</button></form></Navbar.Brand>
-        </Container>
         <Container id="diverr">
         </Container>
             <Nav >

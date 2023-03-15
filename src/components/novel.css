@@ -116,6 +116,8 @@ background-color: #f9a504;
   background-color: #ffffff;
   border-radius: 15px;
   width: 18vw;
+  height: 100px;
+  overflow: scroll;
   padding: 10px 13px;
   direction : 'ltr';
   margin-bottom: 5px;
@@ -126,6 +128,8 @@ background-color: #f9a504;
     background-color: #ffffff;
     border-radius: 15px;
     width: 18vw;
+    height: 150px;
     padding: 10px 13px;
-    direction : 'ltr'
+    direction : 'ltr';
+    overflow: scroll
 }

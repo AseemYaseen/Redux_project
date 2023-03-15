@@ -208,8 +208,8 @@ body{
   .flex{
     margin-top: 20px;
     display: flex;
-    color: white;
-    background-color: rgb(38, 136, 0) !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(234, 234, 234) !important;
     width: 55%;
     margin-left: auto;
     margin-right: auto;
@@ -233,7 +233,7 @@ body{
 
   .userInfo span{
     font-weight: 700;
-    color: #bfbfbf;
+    color: #0a0000 !important;
   }
 
   .EditBut{

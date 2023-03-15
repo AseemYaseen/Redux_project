@@ -4,6 +4,7 @@ import loginReducer from "./login"
 
 const AllReducers=combineReducers({
     login: loginReducer,
+    
 });
 
 export default AllReducers;

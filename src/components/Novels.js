@@ -49,7 +49,7 @@ function Novels() {
    <>
     <Navbar id="navBarContainer">
       <Container>
-        <Navbar.Brand><form onSubmit={getSearch}><input id="search" placeholder="Search  ..." onChange={handleSearch} type="text"/><br/><button type="submit" id="add" >Search</button></form></Navbar.Brand>
+        <Navbar.Brand></Navbar.Brand>
       </Container>
       <Container id="diverr">
       </Container>
@@ -60,8 +60,10 @@ function Novels() {
         </Nav>
     </Navbar>
     <div id="landing">
-      <p style={{visibility : "hidden"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, nostrum deserunt mollitia animi omnis explicabo laborum harum eos reprehenderit illum magni dolore quasi, vero consequuntur. Accusantium aut vel ab amet.</p>
+      {/* <p style={{visibility : "hidden"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, nostrum deserunt mollitia animi omnis explicabo laborum harum eos reprehenderit illum magni dolore quasi, vero consequuntur. Accusantium aut vel ab amet.</p> */}
       <Navbar.Brand><a href="/addBook"><button id="add" style={{marginBottom : '2vw' ,marginRight : '1vw' , height : "4vw" , fontSize : '18px' , width : '125px'}}>Add A Book</button></a></Navbar.Brand>
+        <form onSubmit={getSearch}><input id="search" placeholder="Search  ..." onChange={handleSearch} type="text"/><br/><button type="submit" id="add" >Search</button></form>
+        <br></br>
       <div id="diver">
         <h1 className="text-center font-bold text-2xl" id="head">Books</h1>
       </div>

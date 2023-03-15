@@ -13,7 +13,6 @@ function Login() {
   if (user !== '') {
     window.location.href = '/Home';
     localStorage.setItem('Email', email);
-    
   }
 
 

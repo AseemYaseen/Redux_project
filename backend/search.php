@@ -17,7 +17,7 @@ switch ($method) {
     case 'GET' :
         $sql = "SELECT id , description FROM novels";
         $path = explode('/',$_SERVER['REQUEST_URI']);
-        $searchAbout = $path[4];
+        $searchAbout = $path[5];
         // print_r('$path');
         $searchResult = [];
         $stmt =$conn->prepare($sql);

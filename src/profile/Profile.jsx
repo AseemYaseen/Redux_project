@@ -43,9 +43,6 @@ export default function Profile() {
   return (
     <>
       <Navbar id="navBarContainer">
-        <Container>
-          <Navbar.Brand><form><input id="search" placeholder="Search ..." type="text" /><br /><button type="submit" id="add" >Search</button></form></Navbar.Brand>
-        </Container>
         <Container id="diverr">
         </Container>
         <Nav >
